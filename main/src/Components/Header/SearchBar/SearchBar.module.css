@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.input, .button {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Shantell Sans', cursive;
+}
+  
+.input {
+    background-color: #3f51b5;
+    width: 13rem;
+  }
+
+::placeholder {
+    color: #fff;
+    font-family: 'Shantell Sans', cursive;
+}
+.button {
+    background-color: #2196f3;
+    cursor: pointer;
+  }
+  
+.button:hover {
+    background-color: #1976d2;
+  }
