@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    display: inline-block;
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+.about:hover {
+    cursor: pointer;
+    color: blue;
+}

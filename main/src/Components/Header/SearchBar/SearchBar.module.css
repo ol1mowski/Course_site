@@ -5,7 +5,7 @@
 }
 
 .container {
-    padding-top: 10%;
+    padding-top: 4rem;
     display: flex;
     justify-content: center;
 }
@@ -16,7 +16,6 @@
     border: none;
     border-radius: 5px;
     color: #fff;
-    font-family: 'Shantell Sans', cursive;
 }
   
 .input {
@@ -26,7 +25,6 @@
 
 ::placeholder {
     color: #fff;
-    font-family: 'Shantell Sans', cursive;
 }
 .button {
     background-color: #2196f3;
